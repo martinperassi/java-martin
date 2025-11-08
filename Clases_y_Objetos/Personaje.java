@@ -54,11 +54,9 @@ public class Personaje {
                         break;
                     default:
                         System.out.println("vuelve a intentar, reacuerda que tienes que ingresar 1 o 2...");
+                        break;
                 }
-
-
             }
+        scanner.close();
     }
-
-
 }
