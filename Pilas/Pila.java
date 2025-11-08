@@ -57,11 +57,21 @@ public class Pila {
     //     y luego almacenamos en el indice 0 el numero ingresado y asi sucesivamente.
 
     //sacar
+    int aux = 0;
     public int sacar(){
-        int aux;
-        aux = numeros[cima];
-        cima = cima -1;
-        return aux;
+        if(!this.estaVacia()){
+            aux = numeros[cima];
+            cima--;
+            return aux;
+        }else{
+            System.out.println("sd");
+        }
+
+
+        // int aux;
+        // aux = numeros[cima];
+        // cima = cima -1;
+        // return aux;
     }
     // -->creamos una variable auxiliar para utilizar posteriormente.
     // -->a esa variable aux le almacenamos el valor que tenga la cima

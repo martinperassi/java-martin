@@ -23,5 +23,15 @@ public class MainPila {
         System.out.println(pila.estaLlena());// --> no esta llena (dara false)
 
 
+        System.out.println("PUNTO 1:");
+        int x = 3;
+        int y = 5;
+        int z = 2;
+
+        Pila pila1 = new Pila();
+
+        
+
+
     }
 }
