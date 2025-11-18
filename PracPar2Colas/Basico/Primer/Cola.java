@@ -18,16 +18,16 @@ public class Cola {
       return (ultimo==maxcola-1);
    }
    
-   public void encolar(int elem) {      
+   public void meter(int elem) {      
       if (!this.estaLlena()){
          ultimo++;
          elementos[ultimo]=elem;         
       }
    }
    
-   public int desencolar() {
-      int aux=elementos[0];
-      for (int i=0; i<ultimo; i++) 
+   public int sacar() {
+      int aux = elementos[0];
+      for (int i = 0; i < ultimo; i++) 
          elementos[i] = elementos[i+1];
       ultimo--;     
       return aux;
