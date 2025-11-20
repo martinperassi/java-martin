@@ -1,8 +1,11 @@
 {
-    "geminicodeassist.chat.automaticScrolling": false,
+    "geminicodeassist.chat.automaticScrolling": true,
     "geminicodeassist.chat.enableStreaming": false,
     "geminicodeassist.displayInlineContextHint": false,
-    "geminicodeassist.enable": false,
+    "geminicodeassist.enable": true,
     "geminicodeassist.enableTelemetry": false,
-    "geminicodeassist.inlineSuggestions.enableAuto": false
+    "geminicodeassist.inlineSuggestions.enableAuto": false,
+    "geminicodeassist.chat.changeView": "Default diff view",
+    "geminicodeassist.inlineSuggestions.nextEditPredictions": false,
+    "geminicodeassist.inlineSuggestions.suggestionSpeed": "Slow"
 }
