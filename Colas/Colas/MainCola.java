@@ -143,7 +143,9 @@ public class MainCola {
         //PUNTO 8
         
 
-
+        System.out.println("hola como estas");
+        System.out.println("chau me voy a mi casa");
+        System.out.println("hola");
 
     }
 

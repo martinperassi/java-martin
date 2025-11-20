@@ -1,0 +1,8 @@
+{
+    "geminicodeassist.chat.automaticScrolling": false,
+    "geminicodeassist.chat.enableStreaming": false,
+    "geminicodeassist.displayInlineContextHint": false,
+    "geminicodeassist.enable": false,
+    "geminicodeassist.enableTelemetry": false,
+    "geminicodeassist.inlineSuggestions.enableAuto": false
+}
