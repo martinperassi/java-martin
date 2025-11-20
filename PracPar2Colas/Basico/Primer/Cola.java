@@ -1,5 +1,7 @@
 package PracPar2Colas.Basico.Primer;
 
+import Colas.Colas.ColaInt;
+
 public class Cola {
     private final int maxcola=5;
    private int elementos[];
@@ -37,7 +39,9 @@ public class Cola {
     if (this.estaVacia()){
         System.out.println("Cola Vacia");
         return -1;
+    }else{
+      return elementos[0];
     }
-    return elementos[0];
+
    }
 }
