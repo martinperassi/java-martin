@@ -147,6 +147,10 @@ public class MainCola {
         System.out.println("chau me voy a mi casa");
         System.out.println("hola");
         System.out.println("s");
+        System.out.println();
+        System.out.println("hola maria");
+        System.out.println("marceline");
+        System.out.println("juana de arco");
 
     }
 

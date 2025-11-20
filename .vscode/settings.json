@@ -1,11 +1,17 @@
 {
     "geminicodeassist.chat.automaticScrolling": true,
-    "geminicodeassist.chat.enableStreaming": false,
-    "geminicodeassist.displayInlineContextHint": false,
-    "geminicodeassist.enable": true,
-    "geminicodeassist.enableTelemetry": false,
-    "geminicodeassist.inlineSuggestions.enableAuto": false,
-    "geminicodeassist.chat.changeView": "Default diff view",
-    "geminicodeassist.inlineSuggestions.nextEditPredictions": false,
-    "geminicodeassist.inlineSuggestions.suggestionSpeed": "Slow"
+    "geminicodeassist.chat.enableStreaming": true,
+    "geminicodeassist.contextExclusionGitignore": true,
+    "editor.inlineSuggest.enabled": false,
+    // --- INICIO DE CAMBIOS ---
+    // Desactiva el menú de sugerencias que aparece al escribir
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    // Desactiva la aparición de sugerencias al usar caracteres como '.' o '('
+    "editor.suggestOnTriggerCharacters": false,
+    "geminicodeassist.inlineSuggestions.enableAuto": false
+    // --- FIN DE CAMBIOS ---
 }
