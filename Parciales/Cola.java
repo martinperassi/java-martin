@@ -1,12 +1,12 @@
 package Parciales;
 
 public class Cola {
-    private int [] elementos;
+    private char [] elementos;
     private int maxElementos = 6;
     private int ultimo;
 
     Cola(){
-        this.elementos = new int[maxElementos];
+        this.elementos = new char[maxElementos];
         ultimo = -1;
     }
 
@@ -18,26 +18,26 @@ public class Cola {
         return ultimo == maxElementos -1;
     }
 
-    public int meter(int elem){
+    public char meter(char elem){
         if(!estaLlena()){
             ultimo++;
             elementos[ultimo] = elem;
             return elem;
         }else{
-            return -1;    
+            return '!';    
         }
     }
 
-    public int sacar(){
+    public char sacar(){
         if(!estaVacia()){
-            int aux = elementos[0];
+            char aux = elementos[0];
             for(int i = 0; i < ultimo; i++){
                 elementos[i] = elementos[i + 1];
             }
             ultimo--;
             return aux;
         }else{
-            return -1;
+            return '!';
         }
     }
 
